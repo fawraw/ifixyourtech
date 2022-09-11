@@ -81,7 +81,7 @@
   
   /* styling our main content */
   .hero           {
-    min-height: 800px;
+    min-height: 490px;
     text-align: center;
     background-image: url('../img/sky.jpg');
     background-size: cover;
@@ -91,11 +91,11 @@
     padding-top: 130px;
   }
   .hero-content h1   {
-    font-size: 100px;
+    font-size: 50px;
     margin: 0;
   }
   .hero-content p    {
-    font-size: 50px;
+    font-size: 25px;
   }
   .hero-content a    {
     display: inline-block;
