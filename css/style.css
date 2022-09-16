@@ -182,3 +182,9 @@
   .testimonial-author span {
     font-size: 14px;
   }
+
+  .new {
+    display: inline-block;
+    background-color: white;
+    font-size: large;
+  }
