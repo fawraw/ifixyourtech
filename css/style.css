@@ -83,7 +83,7 @@
   .hero           {
     min-height: 490px;
     text-align: center;
-    background-image: url('../img/sky.jpg');
+    background-color: rgb(25,46,73,255);
     background-size: cover;
   }
   .hero-content   {
