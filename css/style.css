@@ -183,8 +183,9 @@
     font-size: 14px;
   }
 
-  .new {
+  .a-propos {
     display: inline-block;
     background-color: white;
     font-size: large;
+    text-align: center;
   }
