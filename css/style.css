@@ -68,7 +68,7 @@
   /* styling our footer */
   footer   {
     background: #222;
-    color: #777;
+    color: white;
     padding: 40px;
     text-align: center;
   }
@@ -89,6 +89,9 @@
   .hero-content   {
     color: #FFF;
     padding-top: 130px;
+  }
+  .hero-title {
+    color: white;
   }
   .hero-content h1   {
     font-size: 50px;
@@ -112,6 +115,7 @@
   .site-section   {
     padding-bottom: 50px;
     padding-top: 50px;
+    background-color: rgb(25,46,73,255);
   }
   .site-section-secondary   {
     background: #EFEFEF;
@@ -130,7 +134,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 300;
-    color: #777;
+    color: white;
   }
   
   /* feature boxes */
@@ -138,6 +142,7 @@
     display: inline-block;
     width: 33%;
     padding: 20px 30px;
+    color: white;
   }
   .feature-box img  {
     margin-bottom: 12px;
@@ -145,7 +150,6 @@
   }
   .feature-box h5   {
     font-size: 20px;
-    color: #999;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 2px;
@@ -182,7 +186,6 @@
   }
 
   .a-propos {
-    display: inline-block;
     background-color: white;
     font-size: large;
     text-align: center;
