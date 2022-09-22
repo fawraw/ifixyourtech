@@ -118,7 +118,7 @@
     background-color: rgb(25,46,73,255);
   }
   .site-section-secondary   {
-    background: #EFEFEF;
+    background: rgb(25,46,73,255);
   }
   .site-section-inside   {
     width: 80%;
@@ -168,7 +168,9 @@
     border-radius: 4px;
     margin-bottom: 15px;
   }
-  
+  .testimonial-author {
+    color: white;
+  }
   .testimonial-author img {
     float: left;
     width: 80px;
@@ -211,6 +213,8 @@
     width: 90%;
     margin: 0 auto;
     max-width: 80rem;
+    text-align: center;
+    color: #000;
   }
   
   .cols{
