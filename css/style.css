@@ -391,12 +391,6 @@
 
    @media screen and (max-width: 1495px){
     .site-section-inside {
-      width: 900px;
-    }
-   }
-
-   @media screen and (max-width: 915px){
-    .site-section-inside {
-      width: 400px;
+      width: 90%;
     }
    }
