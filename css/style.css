@@ -393,8 +393,8 @@
     .site-section-inside {
       width: 90%;
     }
-    .nav li{
-      font-size: 0.9rem;
+    .nav ul li a{
+      font-size: 0.2rem;
     }
   
    }
