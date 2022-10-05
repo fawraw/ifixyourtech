@@ -394,3 +394,9 @@
       width: 900px;
     }
    }
+
+   @media screen and (max-width: 915px){
+    .site-section-inside {
+      width: 400px;
+    }
+   }
