@@ -392,6 +392,7 @@
    @media screen and (max-width: 1495px){
     .site-section-inside {
       width: 90%;
+      font-size: 10%;
     }
     .nav {
       width: 90%;
