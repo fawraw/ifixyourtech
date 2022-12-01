@@ -1,5 +1,6 @@
 /* resetting browser stuff */
 *     {
+    
     box-sizing: border-box;
   }
   html,
@@ -7,7 +8,7 @@
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 16px;overflow-x:hidden;
   }
   
   /* styling our overall page */
@@ -28,10 +29,10 @@
     display: inline-block;
     color: #FFF;
     text-decoration: none;
-    width: 49%;
+  
   }
   #logo img    {
-    width: 50px;
+    
     border-radius: 3px;
     margin-right: 8px;
     vertical-align: middle;
@@ -87,7 +88,7 @@
   width: 100%;
   text-align: left;
   font: normal 16px sans-serif;
-  padding: 45px 50px;
+  padding: 40px 50px;
 }
 
 .footer-distributed .footer-left p {
@@ -128,9 +129,9 @@
 }
 
 .footer-distributed .footer-right {
-  float: right;
+ text-align:center;
   margin-top: 6px;
-  max-width: 180px;
+ margin-bottom:10px;
 }
 
 .footer-distributed .footer-right a {
@@ -168,34 +169,35 @@
 
   /* styling our main content */
   .hero           {
-    min-height: 490px;
+    min-height: 500px;padding:8px;
     text-align: center;
     background-color: rgb(25,46,73,255);
     background-size: cover;
   }
   .hero-content   {
     color: #FFF;
-    padding-top: 130px;
+    padding-top: 100px;
   }
   .hero-title {
     color: white;
   }
   .hero-content h1   {
-    font-size: 50px;
+    font-size: 40px;
+    font-weight:bold;
     margin: 0;
   }
   .hero-content p    {
-    font-size: 25px;
+    font-size: 20px;
   }
   .hero-content a    {
     display: inline-block;
     color: #FFF;
-    border: 3px solid #FFF;
+    border: 2px solid #FFF;
     border-radius: 3px;
-    padding: 15px 30px;
+    padding: 10px 20px;
     margin-right: 20px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 20px;
   }
   
   /* basic site sections */
@@ -227,7 +229,7 @@
   /* feature boxes */
   .feature-box   {
     display: inline-block;
-    width: 33%;
+  
     padding: 20px 30px;
     color: white;
   }
@@ -279,7 +281,6 @@
     font-size: large;
     text-align: center;
   }
-  /* Section debut expertise-flip */
   *{
     margin: 0;
     padding: 0;
@@ -302,6 +303,8 @@
     max-width: 80rem;
     text-align: center;
     color: #000;
+    padding-top:100px;
+    padding-bottom:100px;
   }
   
   .cols{
@@ -327,9 +330,10 @@
     -webkit-perspective: 1000px;
             perspective: 1000px;
   }
-  
+  .front{ background: #192e49;}
   .front,
   .back{
+         
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
     border-radius: 10px;
@@ -342,7 +346,7 @@
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     text-align: center;
-    min-height: 280px;
+    min-height: 200px;
     height: auto;
     border-radius: 10px;
     color: #fff;
@@ -350,7 +354,7 @@
   }
   
   .back{
-    background: #cedce7;
+        background: #596a72 !important;
     background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
     background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
     background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
@@ -366,7 +370,7 @@
       content: '';
       display: block;
       opacity: .6;
-      background-color: #000;
+     
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       border-radius: 10px;
@@ -390,11 +394,11 @@
   .inner{
       -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
               transform: translateY(-50%) translateZ(60px) scale(0.94);
-      top: 50%;
+     
       position: absolute;
       left: 0;
       width: 100%;
-      padding: 2rem;
+  
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       outline: 1px solid transparent;
@@ -402,6 +406,7 @@
               perspective: inherit;
       z-index: 2;
   }
+ 
   
   .container .back{
       -webkit-transform: rotateY(180deg);
@@ -433,8 +438,8 @@
   
   .front .inner p{
     font-size: 1.5rem;
-    margin-bottom: 2rem;
-    position: relative;
+    
+   position: relative;
   }
   
   .front .inner p:after{
@@ -447,12 +452,13 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-    bottom: -.75rem;
+    bottom: -.55rem;
   }
   
   .front .inner span{
     color: rgba(255,255,255,0.7);
     font-family: 'Montserrat';
+    font-size:12px;
     font-weight: 300;
   }
   
@@ -486,3 +492,61 @@
     }
   
    }
+   .text_inner{
+       font-size:15px !important;margin-top:0px;padding:15px}
+       /*flip*/
+       
+       
+       
+       
+       .flip-card {
+  background-color: transparent;
+
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  border-radius:20px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius:20px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius:20px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #192e49;
+  color: white;
+  border-radius:20px;
+  
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: Grey;
+  color: white;
+  border-radius:20px;
+  transform: rotateY(180deg);
+}
+
+   
